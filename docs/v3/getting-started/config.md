@@ -46,6 +46,23 @@
 * **default:** ADVENTURE
 * **description:** The gamemode which a player will be set to when entering archive worlds. Requires [#change-gamemode](config.md#change-gamemode "mention") to be enabled.
 
+### disabled-physics
+
+#### `prevent-connections`
+
+* **default:** true
+* **description:** Sets whether connections are to be prevented when world physics are disabled.
+
+#### `prevent-fluid-flow`
+
+* **default:** true
+* **description:** Sets whether fluid flowing is to be prevented when world physics are disabled.
+
+#### `prevent-falling-blocks`
+
+* **default:** true
+* **description:** Sets whether block falling to be prevented when world physics are disabled.
+
 ### save-from-death
 
 #### `enabled`
