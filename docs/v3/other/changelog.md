@@ -8,6 +8,7 @@
 * Added [World Folders](https://github.com/thomasmny/BuildSystem/pull/352)
 * Added [World Backups](https://github.com/thomasmny/BuildSystem/pull/357)
 * Added [config option to prohibit world deletion](https://github.com/thomasmny/BuildSystem/commit/0838b76f22fe33ac9a6d2e453455a70cc2e5cde5)
+* Added [config option for disabled world physics](https://github.com/thomasmny/BuildSystem/pull/372)
 * Added [commands for directly opening navigator categories](https://github.com/thomasmny/BuildSystem/commit/6057dee955741ee15e8002d5a6fd32d5497d05f4)
 {% endtab %}
 
