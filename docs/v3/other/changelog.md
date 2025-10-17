@@ -1,6 +1,6 @@
 # Changelog
 
-## v3.0.0 - \<release-date>
+## v3.0.0 - 17.10.2025
 
 {% tabs %}
 {% tab title="Added" %}
