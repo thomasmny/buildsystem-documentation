@@ -27,7 +27,7 @@ buildsystem.bypass.archive
 buildsystem.bypass.builders
 ```
 
-### Bypass disabled block breaking/placement
+### Bypass disabled block breaking/placement/interactions
 
 ```
 buildsystem.bypass.settings

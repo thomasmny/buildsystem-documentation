@@ -1,5 +1,14 @@
 # Changelog
 
+## v3.0.1 - 20.10.2025
+
+{% tabs %}
+{% tab title="Fixed" %}
+* **Fixed Permission Check:** Players with bypass permissions (e.g., `buildsystem.bypass.settings`) will now be correctly allowed to modify worlds.
+* **Fixed Startup Crash:** Resolved a server crash by ensuring all worlds are loaded on the main server thread.
+{% endtab %}
+{% endtabs %}
+
 ## v3.0.0 - 17.10.2025
 
 {% tabs %}
