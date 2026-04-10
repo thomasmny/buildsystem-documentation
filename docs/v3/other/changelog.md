@@ -1,5 +1,14 @@
 # Changelog
 
+## v3.0.2 - 10.04.2026
+
+{% tabs %}
+{% tab title="Fixed" %}
+* **Fixed World Rename:** Renaming a build world no longer causes its folder reference to become out of sync.
+* **Fixed Backup Service:** The backup service now correctly reloads on plugin initialisation, preventing backups from silently not running after a reload.
+{% endtab %}
+{% endtabs %}
+
 ## v3.0.1 - 20.10.2025
 
 {% tabs %}
@@ -160,16 +169,13 @@ Fixed `IncompatibleClassChangeError`
 
 {% tabs %}
 {% tab title="Added" %}
-* **Added 1.20 support**\
-
+* **Added 1.20 support**<br>
 * **Added ability to filter words in navigator**
   * New slot in the navigator
-  * Toggle through multiple settings: "_none_", "_starts with_", "_contains_" and "_matches_"\
-
+  * Toggle through multiple settings: "_none_", "_starts with_", "_contains_" and "_matches_"<br>
 * **Allow admins to specify further illegal characters in a world's name**
   * New config option: `invalid-characters`
-  * If a character in the world's name matches the specified regex, it is removed\
-
+  * If a character in the world's name matches the specified regex, it is removed<br>
 * **New placeholders**
   * `%buildsystem_lastedited%`
   * `%buildsystem_lastloaded%`
@@ -1126,8 +1132,7 @@ Fix world icon not displaying correctly
 
 {% tabs %}
 {% tab title="Fixed" %}
-* Fixed a bug where the player received the wrong block with /blocks​\
-
+* Fixed a bug where the player received the wrong block with /blocks​<br>
 {% endtab %}
 {% endtabs %}
 
@@ -1232,8 +1237,7 @@ Fix world icon not displaying correctly
 {% tab title="Added" %}
 * **Rename worlds**
   * Use /worlds rename \<world> to rename a world
-  * Permission: buildsystem.rename​\
-
+  * Permission: buildsystem.rename​<br>
 {% endtab %}
 
 {% tab title="Changed" %}
